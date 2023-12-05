@@ -4,7 +4,7 @@
 
 package multithreading;
 
-public class Main {
+public class PlayScaleMain {
 
     private final Object lock = new Object();
     private volatile int currentNoteIndex = 0;
@@ -12,7 +12,7 @@ public class Main {
     private FilePlayer player = new FilePlayer();
 
     public static void main(String[] args) {
-        new Main().playScale();
+        new PlayScaleMain().playScale();
     }
 
     public void playScale() {
