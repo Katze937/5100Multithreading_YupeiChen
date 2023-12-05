@@ -65,6 +65,6 @@ public class Main {
     }
 
     private void playNote(String note) {
-        player.play("C:\\Users\\isabe\\OneDrive\\桌面\\5100\\Bonus\\sound track\\Sounds\\" + note);
+        player.play("C:\\NetBeansProjects\\5100Multithreading\\sound track\\Sounds\\" + note);
     }
 }
